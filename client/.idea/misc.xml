@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/drawable/ic_close_tab.xml" value="0.1615" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/drawable/search_icon.xml" value="0.1615" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/activity_add_placement.xml" value="0.3333333333333333" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/activity_add_placement2.xml" value="0.1578125" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/activity_add_profile.xml" value="0.22" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/activity_admin.xml" value="0.22" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/activity_dialog.xml" value="0.153125" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/activity_login.xml" value="0.14666666666666667" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/activity_login_admin.xml" value="0.1578125" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/activity_placement.xml" value="0.22" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/activity_profile.xml" value="0.3333333333333333" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/activity_signup.xml" value="0.16666666666666666" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/activity_signup_admin.xml" value="0.1578125" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/admin_not_logged_fragement.xml" value="0.12954253954681488" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/fragment_account.xml" value="0.1578125" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/fragment_account_admin.xml" value="0.12954253954681488" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/fragment_admin_account.xml" value="0.12954253954681488" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/fragment_admin_dash_board.xml" value="0.22" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/fragment_admin_login.xml" value="0.1578125" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/fragment_admin_sign_up.xml" value="0.1578125" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/fragment_applied_placement_.xml" value="0.12460567823343849" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/fragment_first.xml" value="0.1421875" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/fragment_login.xml" value="0.1578125" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/fragment_placement__details.xml" value="0.3333333333333333" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/fragment_placement_application.xml" value="0.16666666666666666" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/fragment_second.xml" value="0.1421875" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/fragment_signup.xml" value="0.1578125" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/fragment_user_account.xml" value="0.23647604327666152" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/fragment_user_not_logged.xml" value="0.153125" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/layout/placement_view.xml" value="0.22" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/menu/admin_menu.xml" value="0.12954253954681488" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/menu/top_appbar_menu_home.xml" value="0.1578125" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.119" />
+        <entry key="..\:/Darshan_Project/client/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.119" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

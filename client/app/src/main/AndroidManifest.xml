@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tplacement">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TrainingAndPlacement"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".admin.AdminActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".splashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.mainScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".account.addProfileActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.account.signupAdmin"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.account.LoginAdminActivity"
+            android:exported="false"
+            android:label="Admin Login"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".account.signupActivity"
+            android:exported="false"
+            android:label="SignUp"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".account.ProfileActivity"
+            android:exported="false"
+            android:label="Profile" />
+
+        <activity
+            android:name=".account.LoginActivity"
+            android:exported="false"
+            android:label="Login"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".placement.PlacementActivity"
+            android:exported="false"
+            android:label="Placement" />
+
+        <activity
+            android:name=".admin.placement.addPlacement"
+            android:exported="false"
+            android:label="@string/title_activity_add_placement"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.TrainingAndPlacement.NoActionBar" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TrainingAndPlacement" parent="Theme.Material3.DayNight">
+
+        <item name="colorPrimary">#E4F9A825</item>
+        <item name="colorPrimaryVariant">#F3EBEB</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="android:actionBarTheme">@style/Theme.Material3.DynamicColors.DayNight</item>
+
+        <item name="colorSecondary">#FF039BE5</item>
+        <item name="colorSecondaryVariant">#8A8A8A</item>
+        <item name="colorOnSecondary">#0B0B0B</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:navigationBarColor" tools:targetApi="l" >?attr/colorPrimary</item>
+
+    </style>
+
+    <style name="Theme.mainScreen" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorSecondary">#FFF3E0</item>
+        <item name="colorSecondaryVariant">#8A8A8A</item>
+        <item name="colorOnSecondary">#E3F2FD</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSecondary</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:navigationBarColor" tools:targetApi="l" >?attr/colorSecondary</item>
+
+    </style>
+
+
+    <style name="Theme.TrainingAndPlacement.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.TrainingAndPlacement.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.TrainingAndPlacement.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3E0"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".splashActivity">
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        style="@style/Widget.Material3.CardView.Filled"
+        android:backgroundTint="#0003DAC5">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_launcher" />
+    </androidx.cardview.widget.CardView>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/user"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EDE7F6"
+        android:letterSpacing="0.4"
+        android:shadowColor="#E64A19"
+        android:shadowRadius="40"
+        android:text="USER"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/admin"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E8EAF6"
+        android:clickable="true"
+        android:letterSpacing="0.4"
+        android:shadowColor="#E64A19"
+        android:shadowRadius="40"
+        android:text="ADMIN"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        app:cornerRadius="5dp" />
+
+</LinearLayout>
