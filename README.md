@@ -94,7 +94,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Node.js](https://nodejs.org/) for the backend.
 - [Android](https://developer.android.com/) and [Material Design](https://material.io/) for the frontend design.
 - [MongoDB](https://www.mongodb.com/) for the database management.
-
----
-
-Feel free to customize the content as necessary, especially the repository URL and any additional features or acknowledgments relevant to your project!
